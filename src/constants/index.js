@@ -15,12 +15,12 @@ import {
   git,
   figma,
   docker,
-  meta,
   acmsigsac,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
+  tech,
+  ctf,
+  brainybot,
+  crimeview,
+  ciphervault,
   tripguide,
   threejs,
 } from "../assets";
@@ -130,8 +130,8 @@ const experiences = [
   {
     title: "Social Media Manager",
     company_name: "Tech Hierarchy",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: tech,
+    iconBg: "#f7f7f7",
     date: "Aug 2024 - June 2025",
     points: [
       "Managed and optimized content across multiple social platforms",
@@ -142,8 +142,8 @@ const experiences = [
   {
     title: "Capture the Flag (CTF) Achievements",
     company_name: "",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: ctf,
+    iconBg: "#000000",
     date: "",
     points: [
       " Top 20 – Digital Pakistan Cyber Hackathon 2024 (Ignite – National Technology Fund) Represented Team DARK DIAMONDS tackled reverse engineering, cryptography, web, and forensics challenges",
@@ -181,68 +181,111 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Intrusion Detection System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Built an IDS capable of identifying malicious input patterns using rule-based logic to enhance defensive security awareness.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "security",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "rule-based",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: tripguide, // replace with actual image import
+    source_code_link: "https://github.com/rabbiya987/Intrusion-Detection-System", // replace with actual link
   },
   {
-    name: "Job IT",
+    name: "Access Control System",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Designed a secure login system with role-based access control and brute-force protection to enforce authentication security.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "rbac",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "security",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: tripguide, // replace with actual image import
+    source_code_link: "https://github.com/rabbiya987/Access_Control_System", // replace with actual link
   },
   {
-    name: "Trip Guide",
+    name: "CipherVault",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A GUI-based encryption and decryption tool supporting multiple cryptographic algorithms for secure data handling.",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tkinter",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "encryption",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ciphervault, // replace with actual image import
+    source_code_link: "https://github.com/rabbiya987/CipherVault", 
+  },
+  {
+    name: "CrimeView360",
+    description:
+      "An interactive crime data analysis and visualization platform that supports EDA, hotspot detection, and trend analysis.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "streamlit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: crimeview, // replace with actual image import
+    source_code_link: "https://github.com/rabbiya987/CrimeView360", // replace with actual link
+  },
+  {
+    name: "Brainy Bot",
+    description:
+      "An AI-powered chatbot built with Cohere’s NLP API and Flask, designed with secure form handling and dynamic response capabilities.",
+    tags: [
+      {
+        name: "flask",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "cohere-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html-css-js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: brainybot, // replace with actual image import
+    source_code_link: "https://github.com/rabbiya987/BrainyBot", // replace with actual link
   },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };
