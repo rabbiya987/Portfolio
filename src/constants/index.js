@@ -23,6 +23,7 @@ import {
   ciphervault,
   tripguide,
   threejs,
+  Network,
 } from "../assets";
 
 export const navLinks = [
@@ -34,6 +35,14 @@ export const navLinks = [
     id: "work",
     title: "Work",
   },
+    {
+    id: "skills",
+    title: "Skills",
+  },
+  {
+    id: "cert",
+    title: "Certs",
+  },
   {
     id: "contact",
     title: "Contact",
@@ -42,76 +51,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Penetration Tester",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Vulnerability Assessments",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
+    title: "CTF Creator",
     icon: creator,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
@@ -153,30 +106,72 @@ const experiences = [
 ];
 
 const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+{
+  "skillName": "Kali Linux"
+},
+{
+  "skillName": "Vulnerability Assessment"
+},
+{
+  "skillName": "Penetration Testing"
+},
+{
+  "skillName": "Network Analysis"
+},
+{
+  "skillName": "Metasploit"
+},
+{
+  "skillName": "Machine Learning"
+},
+{
+  "skillName": "MySQL"
+},
+{
+  "skillName": "Python"
+},
+{
+  "skillName": "Java"
+},
+{
+  "skillName": "C++"
+},
+{
+  "skillName": "HTML/CSS"
+},
+{
+  "skillName": "OOP"
+},
+{
+  "skillName": "Wireshark"
+},
+{
+  "skillName": "Burp Suite"
+},
+{
+  "skillName": "CTF Challenge Development"
+},
+{
+  "skillName": "Team Coordination"
+},
+{
+  "skillName": "Decision-making"
+},
+{
+  "skillName": "Adaptability"
+},
+{
+  "skillName": "Resource Management"
+},
+{
+  "skillName": "Strategic Planning"
+},
+{
+  "skillName": "Project Delegation"
+},
+{
+  "skillName": "Communication & Public Speaking"
+}
 ];
 
 const projects = [
@@ -287,5 +282,22 @@ const projects = [
   },
 ];
 
+const certificates = [
+  {
+    name: "Networking Basics",
+    description:
+      "CISCO Learning",
+    tags: [
+      {
+        name: "networking",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: Network,
+    source_code_link: "https://github.com/rabbiya987/Intrusion-Detection-System", // replace with actual link
+  },
 
-export { services, technologies, experiences, testimonials, projects };
+]
+
+
+export { services, technologies, experiences, testimonials, projects, certificates };

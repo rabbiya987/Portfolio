@@ -30,6 +30,8 @@ import crimeview from "./crimeview.jpg";
 import ciphervault from "./ciphervault.png";
 import tripguide from "./tripguide.png";
 
+import Network from "./Certificates/Networking.png";
+
 export {
   logo,
   backend,
@@ -59,4 +61,5 @@ export {
   crimeview,
   ciphervault,
   tripguide,
+  Network
 };
