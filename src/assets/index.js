@@ -30,7 +30,17 @@ import crimeview from "./crimeview.jpg";
 import ciphervault from "./ciphervault.png";
 import tripguide from "./tripguide.png";
 
+import Cloud from "./Certificates/Cloud.png";
+import Darkweb from "./Certificates/Darkweb.jpg";
+import Database from "./Certificates/Database.png";
+import Dockercert from "./Certificates/Docker.png";
+import EHE from "./Certificates/EHE.png";
+import Google from "./Certificates/Google.png";
+import IntroToCyber from "./Certificates/Intro to cyber.jpg";
+import Metasploit from "./Certificates/Metasploit.png";
+import Mysql from "./Certificates/Mysql.png";
 import Network from "./Certificates/Networking.png";
+import Pentesting from "./Certificates/Pentesting.png";
 
 export {
   logo,
@@ -61,5 +71,15 @@ export {
   crimeview,
   ciphervault,
   tripguide,
-  Network
+  Network,
+  Cloud,  
+  Darkweb,  
+  Database,  
+  Dockercert,  
+  EHE,  
+  Google,  
+  IntroToCyber,  
+  Metasploit,  
+  Mysql,    
+  Pentesting,
 };

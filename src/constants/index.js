@@ -24,6 +24,16 @@ import {
   tripguide,
   threejs,
   Network,
+  Dockercert,
+  Cloud,  
+  Darkweb,  
+  Database,    
+  EHE,  
+  Google,  
+  IntroToCyber,  
+  Metasploit,  
+  Mysql,    
+  Pentesting,
 } from "../assets";
 
 export const navLinks = [
@@ -284,6 +294,54 @@ const projects = [
 
 const certificates = [
   {
+  name: "Ethical Hacking Essentials",
+  description: "EC-Council",
+  tags: [
+    {
+      name: "ethical hacking",
+      color: "red-text-gradient",
+    },
+  ],
+  image: EHE,
+  source_code_link: "https://www.coursera.org/account/accomplishments/certificate/Y6VBPBJJO5YV",
+},
+{
+  name: "Google Cybersecurity Specialization",
+  description: "Professional Certificate by Google",
+  tags: [
+    {
+      name: "cybersecurity",
+      color: "yellow-text-gradient",
+    },
+  ],
+  image: Google,
+  source_code_link: "https://www.coursera.org/account/accomplishments/specialization/RQELGLBHNY8H",
+},
+{
+  name: "Introduction to Cybersecurity",
+  description: "CISCO Learning",
+  tags: [
+    {
+      name: "cybersecurity",
+      color: "blue-text-gradient",
+    },
+  ],
+  image: IntroToCyber,
+  source_code_link: "https://www.credly.com/badges/45845591-8f1a-4e17-b5ca-4ae259816ec1/linked_in_profile",
+},
+{
+  name: "Metasploit for Beginners: Ethical Penetration Testing",
+  description: "Coursera",
+  tags: [
+    {
+      name: "metasploit",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: Metasploit,
+  source_code_link: "https://www.coursera.org/account/accomplishments/records/SBTQTZBX44EA",
+},
+  {
     name: "Networking Basics",
     description:
       "CISCO Learning",
@@ -294,8 +352,70 @@ const certificates = [
       },
     ],
     image: Network,
-    source_code_link: "https://github.com/rabbiya987/Intrusion-Detection-System", // replace with actual link
+    source_code_link: "https://www.credly.com/badges/fcc330f9-3d02-4249-abd2-e729d2938c03/linked_in_profile", // replace with actual link
   },
+  {
+    name: "Penetration Testing, Threat Hunting, and Cryptography",
+    description:
+      "IBM",
+    tags: [
+      {
+        name: "networking",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: Network,
+    source_code_link: "https://www.coursera.org/account/accomplishments/verify/0Z387FMED8MD", // replace with actual link
+  },
+
+  {
+  name: "Introduction to Security Principles in Cloud Computing",
+  description: "Google Cloud Training Online",
+  tags: [
+    {
+      name: "cloud",
+      color: "blue-text-gradient",
+    },
+  ],
+  image: Cloud,
+  source_code_link: "https://coursera.org/verify/14VLSD9JIVMH",
+},
+{
+  name: "Introduction to Dark Web, Anonymity, and Cryptocurrency",
+  description: "EC-Council",
+  tags: [
+    {
+      name: "darkweb",
+      color: "purple-text-gradient",
+    },
+  ],
+  image: Darkweb,
+  source_code_link: "https://codered.eccouncil.org/certificate/071cefc0-4d38-4418-8f8a-f1e55ead3a62?logged=true",
+},
+{
+  name: "Databases and SQL for Data Science with Python",
+  description: "IBM",
+  tags: [
+    {
+      name: "database",
+      color: "green-text-gradient",
+    },
+  ],
+  image: Database,
+  source_code_link: "https://www.coursera.org/account/accomplishments/certificate/JNVB31D9K8OY",
+},
+{
+  name: "Introduction to Docker",
+  description: "Google",
+  tags: [
+    {
+      name: "docker",
+      color: "orange-text-gradient",
+    },
+  ],
+  image: Dockercert,
+  source_code_link: "https://coursera.org/verify/CRBD3D7PV7QY",
+},
 
 ]
 
