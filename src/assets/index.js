@@ -16,7 +16,7 @@ import brainybot from "./Brainybot.png";
 import crimeview from "./crimeview.jpg";
 import ciphervault from "./ciphervault.png";
 import ids from "./ids.jpg";
-import acs from "./acs.jpg";
+import acs from "./ACS.jpg";
 
 import Cloud from "./Certificates/Cloud.png";
 import Darkweb from "./Certificates/Darkweb.jpg";
