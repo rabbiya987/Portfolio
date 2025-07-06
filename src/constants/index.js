@@ -3,26 +3,15 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
   acmsigsac,
+  github,
   tech,
   ctf,
   brainybot,
   crimeview,
   ciphervault,
-  tripguide,
-  threejs,
+  ids,
+  acs,
   Network,
   Dockercert,
   Cloud,  
@@ -31,9 +20,10 @@ import {
   EHE,  
   Google,  
   IntroToCyber,  
-  Metasploit,  
-  Mysql,    
+  Metasploit,     
   Pentesting,
+  Medium,
+  linkedin,
 } from "../assets";
 
 export const navLinks = [
@@ -67,6 +57,10 @@ const services = [
   {
     title: "Vulnerability Assessments",
     icon: mobile,
+  },
+  {
+    title: "Python Developer",
+    icon: backend,
   },
   {
     title: "CTF Creator",
@@ -185,49 +179,7 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Intrusion Detection System",
-    description:
-      "Built an IDS capable of identifying malicious input patterns using rule-based logic to enhance defensive security awareness.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "security",
-        color: "green-text-gradient",
-      },
-      {
-        name: "rule-based",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide, // replace with actual image import
-    source_code_link: "https://github.com/rabbiya987/Intrusion-Detection-System", // replace with actual link
-  },
-  {
-    name: "Access Control System",
-    description:
-      "Designed a secure login system with role-based access control and brute-force protection to enforce authentication security.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rbac",
-        color: "green-text-gradient",
-      },
-      {
-        name: "security",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide, // replace with actual image import
-    source_code_link: "https://github.com/rabbiya987/Access_Control_System", // replace with actual link
-  },
-  {
+    {
     name: "CipherVault",
     description:
       "A GUI-based encryption and decryption tool supporting multiple cryptographic algorithms for secure data handling.",
@@ -290,6 +242,49 @@ const projects = [
     image: brainybot, // replace with actual image import
     source_code_link: "https://github.com/rabbiya987/BrainyBot", // replace with actual link
   },
+  {
+    name: "Intrusion Detection System",
+    description:
+      "Built an IDS capable of identifying malicious input patterns using rule-based logic to enhance defensive security awareness.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "security",
+        color: "green-text-gradient",
+      },
+      {
+        name: "rule-based",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ids,
+    source_code_link: "https://github.com/rabbiya987/Intrusion-Detection-System", // replace with actual link
+  },
+  {
+    name: "Access Control System",
+    description:
+      "Designed a secure login system with role-based access control and brute-force protection to enforce authentication security.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rbac",
+        color: "green-text-gradient",
+      },
+      {
+        name: "security",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: acs, // replace with actual image import
+    source_code_link: "https://github.com/rabbiya987/Access_Control_System", // replace with actual link
+  },
+
 ];
 
 const certificates = [
@@ -364,7 +359,7 @@ const certificates = [
         color: "blue-text-gradient",
       },
     ],
-    image: Network,
+    image: Pentesting,
     source_code_link: "https://www.coursera.org/account/accomplishments/verify/0Z387FMED8MD", // replace with actual link
   },
 
@@ -416,8 +411,25 @@ const certificates = [
   image: Dockercert,
   source_code_link: "https://coursera.org/verify/CRBD3D7PV7QY",
 },
-
 ]
+
+export const socialLinks = [
+  {
+    name: "GitHub",
+    icon: github,
+    url: "https://github.com/rabbiya987", 
+  },
+  {
+    name: "LinkedIn",
+    icon: linkedin,
+    url: "https://www.linkedin.com/in/rabia-ishtiaq/", 
+  },
+  {
+    name: "Medium",
+    icon: Medium,
+    url: "https://medium.com/@rabbiya765", 
+  },
+];
 
 
 export { services, technologies, experiences, testimonials, projects, certificates };
