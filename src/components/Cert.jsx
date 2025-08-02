@@ -93,4 +93,4 @@ const Cert = () => {
   );
 };
 
-export default SectionWrapper(Cert, "cert");
+export default SectionWrapper(Cert, "");
