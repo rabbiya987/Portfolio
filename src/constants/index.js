@@ -4,6 +4,7 @@ import {
   creator,
   web,
   acmsigsac,
+  nccs,
   github,
   tech,
   ctf,
@@ -16,7 +17,8 @@ import {
   Dockercert,
   Cloud,  
   Darkweb,  
-  Database,    
+  Database,
+  CC,    
   EHE,  
   Google,  
   IntroToCyber,  
@@ -73,6 +75,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Cybersecurity Intern",
+    company_name: "NCCS NED",
+    icon: nccs,
+    iconBg: "#E6DEDD",
+    date: "July’ 2025 – Present ",
+    points: [
+"Conducted reverse engineering of binaries to identify obfuscation techniques, malicious behavior, and vulnerabilities.",
+"Configured and managed Wazuh for intrusion detection, log analysis, and endpoint monitoring, including creating custom detection rules.",
+"Performed network traffic analysis to identify anomalies, intrusion attempts, and assess network health using packet capture tools.",
+    ],
+  },
+  {
     title: "Treasurer & Executive Member  ",
     company_name: "ACM SIGSAC DUET",
     icon: acmsigsac,
@@ -103,8 +117,9 @@ const experiences = [
     iconBg: "#000000",
     date: "",
     points: [
-      " Top 20 – Digital Pakistan Cyber Hackathon 2024 (Ignite – National Technology Fund) Represented Team DARK DIAMONDS tackled reverse engineering, cryptography, web, and forensics challenges",
- "In 20s – Berzerk CTF, FAST University Demonstrated strong skills in offensive security and teamwork under pressure",
+     "Top 20 – Digital Pakistan Cyber Hackathon 2024 (Ignite – National Technology Fund) Represented Team DARK DIAMONDS tackled reverse engineering, cryptography, web, and forensics challenges",
+"In 20s – Berzerk CTF, FAST University Demonstrated strong skills in offensive security and teamwork under pressure",
+"Top 100 Performer – Bugcrowd Black Hat USA 2025 Recognized among the top global participants for outstanding performance in security challenges",
     ],
   },
 ];
@@ -159,19 +174,7 @@ const testimonials = [
   "skillName": "Team Coordination"
 },
 {
-  "skillName": "Decision-making"
-},
-{
-  "skillName": "Adaptability"
-},
-{
-  "skillName": "Resource Management"
-},
-{
   "skillName": "Strategic Planning"
-},
-{
-  "skillName": "Project Delegation"
 },
 {
   "skillName": "Communication & Public Speaking"
@@ -289,6 +292,22 @@ const projects = [
 
 const certificates = [
   {
+  name: "Certified In Cybersecurity",
+  description: "ISC2",
+  tags: [
+    {
+      name: "CC",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "ISC2",
+      color: "blue-text-gradient",
+    },
+  ],
+  image: CC,
+  source_code_link: "https://www.credly.com/badges/01ecaa70-ab87-47a4-abf3-77b5645c3156",
+},
+  {
   name: "Ethical Hacking Essentials",
   description: "EC-Council",
   tags: [
@@ -325,7 +344,7 @@ const certificates = [
   source_code_link: "https://www.credly.com/badges/45845591-8f1a-4e17-b5ca-4ae259816ec1/linked_in_profile",
 },
 {
-  name: "Metasploit for Beginners: Ethical Penetration Testing",
+  name: "Metasploit:Penetration Testing",
   description: "Coursera",
   tags: [
     {
@@ -376,7 +395,7 @@ const certificates = [
   source_code_link: "https://coursera.org/verify/14VLSD9JIVMH",
 },
 {
-  name: "Introduction to Dark Web, Anonymity, and Cryptocurrency",
+  name: "Introduction to Dark Web and Cryptocurrency",
   description: "EC-Council",
   tags: [
     {
@@ -388,7 +407,7 @@ const certificates = [
   source_code_link: "https://codered.eccouncil.org/certificate/071cefc0-4d38-4418-8f8a-f1e55ead3a62?logged=true",
 },
 {
-  name: "Databases and SQL for Data Science with Python",
+  name: "Databases and SQL with Python",
   description: "IBM",
   tags: [
     {

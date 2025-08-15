@@ -11,6 +11,7 @@ import close from "./close.svg";
 import tech from "./company/tech.png";
 import acmsigsac from "./company/acmsigsac.png";
 import ctf from "./company/ctf.jpg";
+import nccs from "./company/nccs.png";
 
 import brainybot from "./Brainybot.png";
 import crimeview from "./crimeview.jpg";
@@ -29,6 +30,7 @@ import Metasploit from "./Certificates/Metasploit.png";
 import Mysql from "./Certificates/Mysql.png";
 import Network from "./Certificates/Networking.png";
 import Pentesting from "./Certificates/Pentesting.png";
+import CC from "./Certificates/CC.png";
 
 import linkedin from "./Socials/linkedin.svg";
 import Medium from "./Socials/medium.svg";
@@ -46,6 +48,7 @@ export {
   tech,
   ctf,
   acmsigsac,
+  nccs,
   brainybot,
   crimeview,
   ciphervault,
@@ -53,7 +56,8 @@ export {
   ids,
   Network,
   Cloud,  
-  Darkweb,  
+  Darkweb,
+  CC,  
   Database,  
   Dockercert,  
   EHE,  
